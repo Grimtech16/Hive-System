@@ -10,7 +10,6 @@ Primary task is to detect the presence of the player’s assets in a given area,
 Node keeps a log of all units pooled “inside” and converts excess units back into resources.
 
 Rupture = Spawns periodically near the players base, spawning units and then despawning; acting solely to apply pressure. 
-Enemy Unit = Seek and recall logic, with collision based attacks
 
 Enemy Unit = Basic tag based seeker AI with collision trigger attack, with logic for recall and pooling and attribute updating from global evolution level (Only while pooled)
 
